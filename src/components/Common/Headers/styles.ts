@@ -16,15 +16,15 @@ export const LogoWrap = styled.div`
 `;
 
 export const Box = styled.div`
-  width: 2rem;
-  height: 2rem;
+  width: 3em;
+  height: 3rem;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.colors.brown};
 `;
 
 export const LogoText = styled.h1`
   color: ${({ theme }) => theme.colors.brown};
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   font-weight: 700;
   margin-left: 5px;
 `;
