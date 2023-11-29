@@ -5,7 +5,9 @@ function Layout() {
   return (
     <S.LayoutContainer>
       <Headers />
-      <Outlet />
+      <S.LayoutWrap>
+        <Outlet />
+      </S.LayoutWrap>
     </S.LayoutContainer>
   );
 }
