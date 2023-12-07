@@ -26,13 +26,17 @@ export const LoginBackground = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 18px;
-  gap: 10rem;
+  gap: 8rem;
 `;
 
-export const Logo = styled.h1`
-  font-size: ${({ theme }) => theme.fontSizes.title};
-  font-weight: 700;
-  color: ${({ theme }) => theme.colors.brown};
+export const Logo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 10vw;
+    height: auto !important;
+  }
 `;
 
 export const InputWrap = styled.div`
@@ -44,10 +48,11 @@ export const InputWrap = styled.div`
 `;
 
 export const Input = styled.input`
+  box-sizing: content-box;
   width: 60%;
-  height: 3.2rem;
+  height: 2rem;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1.6rem 1.2rem;
   font-size: ${({ theme }) => theme.fontSizes.medium};
   border: none;
   background-color: ${({ theme }) => theme.colors.lightOrange};
@@ -79,6 +84,8 @@ export const PasswordWrap = styled.div`
 `;
 
 export const IconWrap = styled.div`
+  font-size: 3rem;
   position: absolute;
-  right: 21%;
+  right: 20%;
+  color: ${({ theme }) => theme.colors.brown};
 `;

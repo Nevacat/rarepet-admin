@@ -4,7 +4,7 @@ function Headers() {
     <S.HeaderWrap>
       <S.LogoWrap>
         <S.Box />
-        <S.LogoText>RAREPET</S.LogoText>
+        <S.LogoText>RAREPER ADMIN</S.LogoText>
       </S.LogoWrap>
     </S.HeaderWrap>
   );

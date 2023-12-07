@@ -4,6 +4,7 @@ const colors = {
   brown: '#5f4832',
   orange: '#ef8e34',
   lightOrange: '#fff8f4',
+  gray: '#a9a9a9',
 };
 
 const fontSizes = {

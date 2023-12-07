@@ -11,14 +11,14 @@ function Login() {
     <S.Container>
       <S.LoginWrap>
         <S.LoginBackground>
-          <S.Logo>RAREPET</S.Logo>
+          <S.Logo>
+            <img src="/images/logo.webp" alt="logo" />
+          </S.Logo>
           <S.InputWrap>
             <S.Input placeholder="아이디" />
             <S.PasswordWrap>
               <S.Input placeholder="비밀번호" type={isView ? 'text' : 'password'} />
-              <S.IconWrap onClick={onView}>
-                {isView ? <IoMdEyeOff style={{ fontSize: '3rem' }} /> : <IoMdEye style={{ fontSize: '3rem' }} />}
-              </S.IconWrap>
+              <S.IconWrap onClick={onView}>{isView ? <IoMdEyeOff /> : <IoMdEye />}</S.IconWrap>
             </S.PasswordWrap>
           </S.InputWrap>
           <S.Button>로그인</S.Button>
